@@ -327,7 +327,7 @@ def create_chain(vectorstore):
     chain = ConversationalRetrievalChain.from_llm(
         llm=llm,
         retriever=retriever,
-        chain_type="map_reduce",
+        chain_type="stuff",
         memory=memory,
         verbose=False
     )
@@ -399,6 +399,7 @@ if user_input:
 # #         st.session_state.chat_history.append(
 # #             {"role": "assistant", "content": assistant_response}
 # #         )
+
 
 
 
