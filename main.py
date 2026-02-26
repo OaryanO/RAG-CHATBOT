@@ -329,7 +329,7 @@ def create_chain(vectorstore):
         retriever=retriever,
         chain_type="map_reduce",
         memory=memory,
-        verbose=True
+        verbose=False
     )
     return chain
 
@@ -399,5 +399,6 @@ if user_input:
 # #         st.session_state.chat_history.append(
 # #             {"role": "assistant", "content": assistant_response}
 # #         )
+
 
 
