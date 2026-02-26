@@ -11,4 +11,6 @@ sentence-transformers==3.0.1
 nltk==3.8.1
 langchain-huggingface
 torch==2.2.2
+urllib3==2.2.1
+charset_normalizer==3.3.2
 
