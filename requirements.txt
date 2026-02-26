@@ -13,4 +13,5 @@ langchain-huggingface
 torch==2.2.2
 urllib3==2.2.1
 charset_normalizer==3.3.2
+chardet==5.2.0
 
